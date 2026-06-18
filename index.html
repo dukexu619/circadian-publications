@@ -1,139 +1,263 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Mengzhu Xu Publications</title>
+<title>Mengzhu Xu | Related Publications</title>
 
 <style>
-
-body{
-    font-family: Arial, sans-serif;
-    margin:0;
-    padding:0;
-    background:#f7f9fc;
-    color:#222;
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f6f9fc;
+    color: #1f2933;
+    line-height: 1.6;
 }
 
-header{
-    background:#003c71;
-    color:white;
-    text-align:center;
-    padding:40px 20px;
+header {
+    background: linear-gradient(135deg, #003c71, #0076a8);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
 }
 
-.container{
-    max-width:1000px;
-    margin:auto;
-    padding:30px;
+header h1 {
+    margin: 0;
+    font-size: 2.6rem;
 }
 
-.poster{
-    text-align:center;
+header p {
+    max-width: 850px;
+    margin: 18px auto 0;
+    font-size: 1.1rem;
 }
 
-.poster img{
-    max-width:100%;
-    border-radius:12px;
-    box-shadow:0 0 15px rgba(0,0,0,0.15);
+.container {
+    max-width: 1050px;
+    margin: 0 auto;
+    padding: 35px 22px;
 }
 
-.section{
-    margin-top:40px;
+.intro {
+    background: white;
+    padding: 26px;
+    border-radius: 14px;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+    margin-bottom: 30px;
 }
 
-.paper{
-    background:white;
-    padding:20px;
-    margin-bottom:15px;
-    border-radius:10px;
-    box-shadow:0 2px 6px rgba(0,0,0,0.08);
+.poster {
+    text-align: center;
+    margin: 30px 0 45px;
 }
 
-footer{
-    text-align:center;
-    padding:30px;
-    background:#003c71;
-    color:white;
-    margin-top:50px;
+.poster img {
+    max-width: 100%;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.18);
 }
 
-a{
-    color:#ffcc00;
-    text-decoration:none;
+h2 {
+    color: #003c71;
+    margin-top: 45px;
+    border-bottom: 3px solid #0076a8;
+    padding-bottom: 8px;
 }
 
+.paper {
+    background: white;
+    padding: 24px 26px;
+    margin: 18px 0;
+    border-radius: 14px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+    border-left: 6px solid #0076a8;
+}
+
+.paper h3 {
+    margin-top: 0;
+    color: #003c71;
+    font-size: 1.25rem;
+}
+
+.meta {
+    margin: 10px 0;
+    color: #334155;
+}
+
+.meta strong {
+    color: #111827;
+}
+
+.status {
+    display: inline-block;
+    background: #e0f2fe;
+    color: #075985;
+    padding: 4px 10px;
+    border-radius: 999px;
+    font-size: 0.85rem;
+    margin-bottom: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 35px 20px;
+    background: #003c71;
+    color: white;
+    margin-top: 50px;
+}
+
+footer a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+@media (max-width: 700px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    .paper {
+        padding: 20px;
+    }
+}
 </style>
-
 </head>
 
 <body>
 
 <header>
-    <h1>Related Publications</h1>
-    <p>Circadian Rhythm, Sleep Analysis and Human-Centric Lighting Research</p>
+    <h1>Mengzhu Xu | Related Publications</h1>
+    <p>
+        Recent publications on circadian rhythm modelling, light-based intervention,
+        wearable sensing, sleep analysis, and human-centric lighting control.
+    </p>
 </header>
 
 <div class="container">
 
-<div class="poster">
-    <img src="publication_poster.png" alt="Publication Poster">
-</div>
+<section class="intro">
+    <h2>Related Publications</h2>
+    <p>
+        This page presents our recent publications on circadian rhythm modelling,
+        light-based intervention, wearable sensing, sleep analysis, and
+        human-centric lighting control.
+    </p>
+</section>
 
-<div class="section">
+<section class="poster">
+    <img src="circadian_publications_mengzhuxu.png" alt="Related Publications Poster">
+</section>
 
-<h2>Published Papers</h2>
-
-<div class="paper">
-    <b>Improving adjustment to daylight saving time transitions with light</b><br>
-    Scientific Reports, 2024
-</div>
-
-<div class="paper">
-    <b>Modelling Office Lighting Optimization for Daylight Saving Time Transitions</b><br>
-    IEEE LS24, 2024
-</div>
+<section>
+<h2>Published / Accepted Papers</h2>
 
 <div class="paper">
-    <b>SSC-SleepNet: A Siamese-Based Automatic Sleep Staging Model with Improved N1 Sleep Detection</b><br>
-    IEEE JBHI, 2025
-</div>
-
-<div class="paper">
-    <b>Toward Real-Time Circadian Phase Estimation with Low Latency from Wearable Sensing Data</b><br>
-    IEEE EMBC, 2026
-</div>
-
-</div>
-
-<div class="section">
-
-<h2>Work in Progress</h2>
-
-<div class="paper">
-    Quantifying and Correcting Activity-Induced Bias in Cosinor-Based Core Body Temperature Analysis
+    <span class="status">Published</span>
+    <h3>Improving adjustment to daylight saving time transitions with light</h3>
+    <p class="meta"><strong>Authors:</strong> Mengzhu Xu, Charikleia Papatsimpa, Luc J. M. Schlangen, Jean-Paul Linnartz</p>
+    <p class="meta"><strong>Year:</strong> 2024</p>
+    <p class="meta"><strong>Journal:</strong> Scientific Reports</p>
+    <p>
+        This study investigates how timed light exposure can support human adjustment
+        to daylight saving time transitions. Using chronobiological modelling, the
+        paper shows that carefully designed light schedules may reduce circadian
+        misalignment and improve adaptation after time changes.
+    </p>
 </div>
 
 <div class="paper">
-    Integrating Human Response Models into Digital Twins for Multi-Objective Office Lighting Control
+    <span class="status">Published</span>
+    <h3>Modelling Office Lighting Optimization for Daylight Saving Time Transitions</h3>
+    <p class="meta"><strong>Authors:</strong> Mengzhu Xu, Charikleia Papatsimpa, Merel van Gilst, Jean-Paul Linnartz</p>
+    <p class="meta"><strong>Year:</strong> 2024</p>
+    <p class="meta"><strong>Venue:</strong> IEEE Sustainable Smart Lighting World Conference &amp; Expo (LS24)</p>
+    <p>
+        This paper extends daylight-saving-time adaptation research to office lighting
+        scenarios. It proposes optimized lighting profiles for workplace environments
+        to accelerate circadian adaptation while considering practical lighting-control
+        settings.
+    </p>
 </div>
 
 <div class="paper">
-    A Lightweight Bayesian Filter for Wearable Circadian Phase Estimation
+    <span class="status">Published</span>
+    <h3>SSC-SleepNet: A Siamese-Based Automatic Sleep Staging Model with Improved N1 Sleep Detection</h3>
+    <p class="meta"><strong>Authors:</strong> Songlu Lin, Zhihong Wang, Hans van Gorp, Mengzhu Xu, Merel van Gilst, Sebastiaan Overeem, Jean-Paul Linnartz, Pedro Fonseca, Xi Long</p>
+    <p class="meta"><strong>Year:</strong> 2025</p>
+    <p class="meta"><strong>Journal:</strong> IEEE Journal of Biomedical and Health Informatics</p>
+    <p>
+        This work presents SSC-SleepNet, a Siamese-network-based automatic sleep
+        staging model. The method improves detection of N1 sleep, a challenging but
+        important stage for accurate sleep analysis.
+    </p>
 </div>
 
+<div class="paper">
+    <span class="status">Accepted / Upcoming</span>
+    <h3>Toward Real-Time Circadian Phase Estimation with Low Latency from Wearable Sensing Data</h3>
+    <p class="meta"><strong>Authors:</strong> Mengzhu Xu, Nemanja Cabrilo, Merel van Gilst, Jean-Paul Linnartz</p>
+    <p class="meta"><strong>Year:</strong> 2026</p>
+    <p class="meta"><strong>Venue:</strong> IEEE Engineering in Medicine and Biology Society Conference (EMBC)</p>
+    <p>
+        This study explores real-time circadian phase estimation using wearable sensing
+        data. It evaluates how short historical windows, sensor choices, and model
+        types affect low-latency phase prediction for wearable and edge-device
+        deployment.
+    </p>
 </div>
+</section>
+
+<section>
+<h2>Submitted / In Preparation</h2>
+
+<div class="paper">
+    <span class="status">Submitted</span>
+    <h3>Quantifying and Correcting Activity-Induced Bias in Cosinor-Based Core Body Temperature Analysis</h3>
+    <p class="meta"><strong>Authors:</strong> To be updated</p>
+    <p class="meta"><strong>Year:</strong> Submitted</p>
+    <p class="meta"><strong>Journal:</strong> IEEE Journal of Biomedical and Health Informatics</p>
+    <p>
+        This manuscript studies how physical activity may bias cosinor-based analysis
+        of core body temperature rhythms and proposes correction methods to improve
+        circadian phase estimation.
+    </p>
+</div>
+
+<div class="paper">
+    <span class="status">To be submitted</span>
+    <h3>Integrating Human Response Models into Digital Twins for Multi-Objective Office Lighting Control</h3>
+    <p class="meta"><strong>Authors:</strong> To be updated</p>
+    <p class="meta"><strong>Year:</strong> To be submitted</p>
+    <p class="meta"><strong>Target Journal:</strong> Building and Environment</p>
+    <p>
+        This planned work integrates human response models into digital twins for
+        office lighting control, aiming to balance multiple objectives such as
+        circadian support, visual comfort, energy efficiency, and building operation.
+    </p>
+</div>
+
+<div class="paper">
+    <span class="status">To be submitted</span>
+    <h3>A Lightweight Bayesian Filter for Wearable Circadian Phase Estimation</h3>
+    <p class="meta"><strong>Authors:</strong> To be updated</p>
+    <p class="meta"><strong>Year:</strong> To be submitted</p>
+    <p class="meta"><strong>Target Journal:</strong> IEEE Transactions on Biomedical Engineering</p>
+    <p>
+        This planned manuscript proposes a lightweight Bayesian filtering framework
+        for estimating circadian phase from wearable data, with a focus on low
+        computational cost, uncertainty estimation, and practical deployment.
+    </p>
+</div>
+</section>
 
 </div>
 
 <footer>
-    Contact:
-    <a href="mailto:m.xu1@tue.nl">
-        m.xu1@tue.nl
-    </a>
+    <p>Contact: <a href="mailto:m.xu1@tue.nl">m.xu1@tue.nl</a></p>
 </footer>
 
 </body>
 </html>
+```
